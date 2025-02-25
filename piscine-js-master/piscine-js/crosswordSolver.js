@@ -223,84 +223,8 @@ function crosswordSolver(emptyPuzzle, words) {
 //   'sandals',
 // ]
 
+const puzzle = '2000\n0...\n0...\n0...'
+const words = ['abba', 'assa']
 
-const puzzle = `...1...........
-..1000001000...
-...0....0......
-.1......0...1..
-.0....100000000
-100000..0...0..
-.0.....1001000.
-.0.1....0.0....
-.10000000.0....
-.0.0......0....
-.0.0.....100...
-...0......0....
-..........0....`
-const words = [
-    'sun',
-    'sunglasses',
-    'suncream',
-    'swimming',
-    'bikini',
-    'beach',
-    'icecream',
-    'tan',
-    'deckchair',
-    'sand',
-    'seaside',
-    'sandals',
-]
-const puzzle2 = `..1.1..1...
-10000..1000
-..0.0..0...
-..1000000..
-..0.0..0...
-1000..10000
-..0.1..0...
-....0..0...
-..100000...
-....0..0...
-....0......`
-const words2 = [
-    'popcorn',
-    'fruit',
-    'flour',
-    'chicken',
-    'eggs',
-    'vegetables',
-    'pasta',
-    'pork',
-    'steak',
-    'cheese',
-]
-const puzzle3 = `...1...........
-..1000001000...
-...0....0......
-.1......0...1..
-.0....100000000
-100000..0...0..
-.0.....1001000.
-.0.1....0.0....
-.10000000.0....
-.0.0......0....
-.0.0.....100...
-...0......0....
-..........0....`
-const words3 = [
-    'sun',
-    'sunglasses',
-    'suncream',
-    'swimming',
-    'bikini',
-    'beach',
-    'icecream',
-    'tan',
-    'deckchair',
-    'sand',
-    'seaside',
-    'sandals',
-].reverse()
-const puzzle4 = '0001\n0..0\n3000\n0..0'
-const words4 = ['casa', 'alan', 'ciao', 'anta']
-crosswordSolver(puzzle2, words2)
+crosswordSolver(puzzle, words)
+
